@@ -79,7 +79,8 @@ export default Task.extend({
       ignoredUpdateFiles: ['favicon.ico'],
       skipGit: commandOptions.skipGit,
       skipTests: commandOptions.skipTests,
-      skipE2e: commandOptions.skipE2e
+      skipE2e: commandOptions.skipE2e,
+      skipMaterial:commandOptions.skipMaterial
     };
 
     validateProjectName(packageName);

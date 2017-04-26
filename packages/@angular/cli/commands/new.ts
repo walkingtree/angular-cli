@@ -35,6 +35,13 @@ const NewCommand = Command.extend({
       description: 'Adds more details to output logging.'
     },
     {
+      name: 'skip-material',
+      type: Boolean,
+      default: false,
+      aliases: ['sm'],
+      description: 'Skip creating  angular material project'
+    },
+    {
       name: 'link-cli',
       type: Boolean,
       default: false,

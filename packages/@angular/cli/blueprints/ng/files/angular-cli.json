@@ -19,7 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "<%= prefix %>",
       "styles": [
-        "styles.<%= styleExt %>"
+        "styles.<%= styleExt %>" <% if ( !skipMaterial ){  %>,
+        "<%= relativeRootPath %>/node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+        <% } %>
+
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

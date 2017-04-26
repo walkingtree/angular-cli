@@ -15,6 +15,7 @@ export default Blueprint.extend({
     { name: 'routing', type: Boolean, default: false },
     { name: 'inline-style', type: Boolean, default: false, aliases: ['is'] },
     { name: 'inline-template', type: Boolean, default: false, aliases: ['it'] },
+    { name: 'skip-material', type: Boolean, default: false },
     { name: 'skip-git', type: Boolean, default: false, aliases: ['sg'] }
   ],
 
@@ -57,6 +58,7 @@ export default Blueprint.extend({
       inlineTemplate: options.inlineTemplate,
       tests: this.tests,
       e2e: this.e2e,
+      skipMaterial:options.skipMaterial
     };
   },
 

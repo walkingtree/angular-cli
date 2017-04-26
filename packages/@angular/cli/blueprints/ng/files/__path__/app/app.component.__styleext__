@@ -1,0 +1,13 @@
+<% if(!skipMaterial){ %>
+.example-card {
+  width: 400px;
+  margin:auto;
+}
+
+img[md-card-image] {
+  background-size: 90%;
+  background-color: rgb(244,67,54);
+
+}
+
+<% }%>

@@ -1,10 +1,91 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/angular/angular-cli/compare/v1.0.2...v1.0.3) (2017-05-09)
+
+
+### Bug Fixes
+
+* **@angular/cli:** add error message when missing config env variable ([#5980](https://github.com/angular/angular-cli/issues/5980)) ([29a9513](https://github.com/angular/angular-cli/commit/29a9513))
+* **@angular/cli:** fix text descriptions ([40ecc30](https://github.com/angular/angular-cli/commit/40ecc30)), closes [#5501](https://github.com/angular/angular-cli/issues/5501)
+* **@angular/cli:** fixing component blueprint indent ([47a76b8](https://github.com/angular/angular-cli/commit/47a76b8))
+* **@angular/cli:** format files according to tslint ([960bd48](https://github.com/angular/angular-cli/commit/960bd48)), closes [#5751](https://github.com/angular/angular-cli/issues/5751)
+* **@angular/cli:** import at least one locale-data with intl ([#6190](https://github.com/angular/angular-cli/issues/6190)) ([a9baddf](https://github.com/angular/angular-cli/commit/a9baddf))
+* **@angular/cli:** install webpack at ejection ([#5745](https://github.com/angular/angular-cli/issues/5745)) ([2c23cda](https://github.com/angular/angular-cli/commit/2c23cda))
+* correctly generate changelog ([5090e3b](https://github.com/angular/angular-cli/commit/5090e3b))
+* **@angular/cli:** ng get: return whole config root when no path provided. ([c2d9e70](https://github.com/angular/angular-cli/commit/c2d9e70)), closes [#5887](https://github.com/angular/angular-cli/issues/5887)
+* **@angular/cli:** open option in serve command should open localhost when host is 0.0.0.0 ([035c094](https://github.com/angular/angular-cli/commit/035c094)), closes [#5743](https://github.com/angular/angular-cli/issues/5743)
+* **@angular/cli:** properly support CSS url()'s with whitespace ([b6db02f](https://github.com/angular/angular-cli/commit/b6db02f))
+* **@angular/cli:** remove default for test runners ([9da5495](https://github.com/angular/angular-cli/commit/9da5495))
+* **@angular/cli:** removes redundant rules from tslint.json ([#5783](https://github.com/angular/angular-cli/issues/5783)) ([1c22a94](https://github.com/angular/angular-cli/commit/1c22a94)), closes [#5755](https://github.com/angular/angular-cli/issues/5755)
+* **@angular/cli:** simplify import path if possible ([#6184](https://github.com/angular/angular-cli/issues/6184)) ([c0c03f9](https://github.com/angular/angular-cli/commit/c0c03f9)), closes [#6183](https://github.com/angular/angular-cli/issues/6183)
+* **@angular/cli:** Throw error when no key provided for ng get ([cd6db0a](https://github.com/angular/angular-cli/commit/cd6db0a)), closes [#5887](https://github.com/angular/angular-cli/issues/5887)
+* **@angular/cli:** Update README.md project generation text. ([#5958](https://github.com/angular/angular-cli/issues/5958)) ([f502bd9](https://github.com/angular/angular-cli/commit/f502bd9))
+* **@ngtools/logger:** add typings and other information to logger package.json ([3a5668c](https://github.com/angular/angular-cli/commit/3a5668c))
+
+
+<a name="1.1.0-beta.0"></a>
+# [1.1.0-beta.0](https://github.com/angular/angular-cli/compare/v1.0.1...v1.1.0-beta.0) (2017-05-03)
+
+
+### Features
+
+* **@angular/cli:** add language service in devDependencies section ([2a40d1e](https://github.com/angular/angular-cli/commit/2a40d1e))
+* **@angular/cli:** adding option to search docs as well ([b5bbdcd](https://github.com/angular/angular-cli/commit/b5bbdcd))
+* **@angular/cli:** bump to tslint 5 & codelyzer 3 ([7f698f7](https://github.com/angular/angular-cli/commit/7f698f7))
+* **@angular/cli:** use and support webpack 2.3 ([d5325e6](https://github.com/angular/angular-cli/commit/d5325e6))
+
+
+
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/angular/angular-cli/compare/v1.0.1...v1.0.2) (2017-05-03)
+
+
+### Bug Fixes
+
+* **@angular/cli:** explicitly disable warning overlays ([f73a9e4](https://github.com/angular/angular-cli/commit/f73a9e4))
+* **@angular/cli:** Improve error message for create component with -m option ([b11d560](https://github.com/angular/angular-cli/commit/b11d560))
+* **@angular/cli:** removing skip e2e test ([fb96871](https://github.com/angular/angular-cli/commit/fb96871))
+* **@angular/cli:** use quiet flag only in case of npm ([9805010](https://github.com/angular/angular-cli/commit/9805010))
+* **@angular/cli:** use safer stylesheet minification settings ([806447e](https://github.com/angular/angular-cli/commit/806447e))
+
+
+
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/angular/angular-cli/compare/v1.0.0...1.0.1) (2017-04-25)
+
+
+### Bug Fixes
+
+* **@angular/cli:** allow tslint to find the appropriate config ([#5792](https://github.com/angular/angular-cli/issues/5792)) ([7377f66](https://github.com/angular/angular-cli/commit/7377f66)), closes [#5770](https://github.com/angular/angular-cli/issues/5770)
+* **@angular/cli:** correctly build completion with blueprints and options ([dfe5990](https://github.com/angular/angular-cli/commit/dfe5990))
+* **@angular/cli:** enable dev server history fallback in ejected config ([2a903d2](https://github.com/angular/angular-cli/commit/2a903d2))
+* **@angular/cli:** ensure only in-memory output is served ([1bc174b](https://github.com/angular/angular-cli/commit/1bc174b))
+* **@angular/cli:** fix baseUrl when running e2e with no-serve ([81403e8](https://github.com/angular/angular-cli/commit/81403e8))
+* **@angular/cli:** fix empty space issue when setting `angular-cli.json` values ([204d312](https://github.com/angular/angular-cli/commit/204d312)), closes [#5716](https://github.com/angular/angular-cli/issues/5716)
+* **@angular/cli:** fix generated Module Spec ([a8f498b](https://github.com/angular/angular-cli/commit/a8f498b)), closes [#5715](https://github.com/angular/angular-cli/issues/5715)
+* **@angular/cli:** fix skip e2e ([4aa17b2](https://github.com/angular/angular-cli/commit/4aa17b2))
+* **@angular/cli:** fix sourcemap toggle in ng test ([16171b9](https://github.com/angular/angular-cli/commit/16171b9)), closes [#5666](https://github.com/angular/angular-cli/issues/5666) [#5668](https://github.com/angular/angular-cli/issues/5668)
+* **@angular/cli:** fix typo in version check ([7de9ab1](https://github.com/angular/angular-cli/commit/7de9ab1)), closes [#5702](https://github.com/angular/angular-cli/issues/5702)
+* **@angular/cli:** fixing new help issue ([39aef95](https://github.com/angular/angular-cli/commit/39aef95)), closes [#5694](https://github.com/angular/angular-cli/issues/5694)
+* **@angular/cli:** generating service dry run fix ([be7c9b1](https://github.com/angular/angular-cli/commit/be7c9b1)), closes [#5862](https://github.com/angular/angular-cli/issues/5862)
+* **@angular/cli:** set sass precision to bootstrap required value ([f82da18](https://github.com/angular/angular-cli/commit/f82da18))
+* **@angular/cli:** update completion suggestion for .bashrc and .zshrc ([1ef8de5](https://github.com/angular/angular-cli/commit/1ef8de5))
+* **@angular/cli:** update e2e config in 1.0 update guide ([86722fd](https://github.com/angular/angular-cli/commit/86722fd)), closes [#5635](https://github.com/angular/angular-cli/issues/5635)
+* **@angular/cli:** updating yarn file ([091fa6e](https://github.com/angular/angular-cli/commit/091fa6e))
+* **@angular/cli:** Use appropriate packageManager for linking ([f6ca2d7](https://github.com/angular/angular-cli/commit/f6ca2d7)), closes [#5524](https://github.com/angular/angular-cli/issues/5524)
+* **@angular/cli:** use zone.js 0.8.6 in [@angular](https://github.com/angular)/cli ([55a4e62](https://github.com/angular/angular-cli/commit/55a4e62))
+* **@ngtools/webpack:** allow comments in tsconfig files ([df3847f](https://github.com/angular/angular-cli/commit/df3847f)), closes [#5216](https://github.com/angular/angular-cli/issues/5216) [#5230](https://github.com/angular/angular-cli/issues/5230)
+* **@ngtools/webpack:** diagnose typescript warnings as warnings ([c55b5dc](https://github.com/angular/angular-cli/commit/c55b5dc)), closes [#5623](https://github.com/angular/angular-cli/issues/5623)
+* **@ngtools/webpack:** resolve path windows ([43429ea](https://github.com/angular/angular-cli/commit/43429ea))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/angular/angular-cli/compare/v1.0.0-rc.4...v1.0.0) (2017-03-24)
 
 
 ### Notes
 
-* The Angular CLI v1.0 release is here! 
+* The Angular CLI v1.0 release is here!
 * You can find the documentation on our [Github wiki](https://github.com/angular/angular-cli/wiki)!
 * If you are updating from a beta or RC version, check out our [1.0 Update Guide](https://github.com/angular/angular-cli/wiki/stories-1.0-update).
 * By default, now that Angular 4 is final, we will generate an Angular 4.0 project with `ng new`.
@@ -192,3 +273,4 @@ instead of using 4200.
 ----
 
 CHANGELOG for Betas and before can still be found on github: https://github.com/angular/angular-cli/blob/ed5f47dc22d5eb4a5d4b4ae2c8f7cb0ec1a999f3/CHANGELOG.md
+

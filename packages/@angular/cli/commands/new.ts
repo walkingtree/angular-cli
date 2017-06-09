@@ -115,6 +115,13 @@ const NewCommand = Command.extend({
       default: false,
       aliases: ['it'],
       description: 'Should have an inline template.'
+     },
+    {
+      name: 'app-blueprint',
+      type: String,
+      default: 'ng',
+      aliases: ['ab'],
+      description: 'The application blueprint to use to generate new app.'
      }
   ],
 

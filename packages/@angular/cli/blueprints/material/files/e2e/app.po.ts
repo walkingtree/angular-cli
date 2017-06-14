@@ -6,6 +6,6 @@ export class <%= jsComponentName %>Page {
   }
 
   getParagraphText() {
-    return element(by.css('<%= prefix %>-root h1')).getText();
+    return element(by.css('<%= prefix %>-root md-card md-card-title')).getText();
   }
 }

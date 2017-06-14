@@ -28,7 +28,37 @@ import { Component } from '@angular/core';
     <router-outlet></router-outlet><% } %>
   `,<% } else { %>
   templateUrl: './app.component.html',<% } %><% if (inlineStyle) { %>
-  styles: []<% } else { %>
+  styles: [`
+  .card-content {
+    width: 100%;
+    padding: 15px;
+}
+
+.card-content .img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 50%;
+    float: left;
+}
+
+.card-content .content {
+    vertical-align: top;
+    margin-left: 100px;
+    padding: 10px 0px 0px 20px;
+}
+
+.command {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 1.1em;
+}
+
+.content div {
+    line-height: 1.5em;
+}
+  `]<% } else { %>
   styleUrls: ['./app.component.<%= styleExt %>']<% } %>
 })
 export class AppComponent {
